@@ -48,13 +48,13 @@ for(let i= 0;i< poseX1.length;i++){
 }
 
 function preload(){
-  b_img = loadImage('assets/button1.png');
+  b_img = loadImage('assets/button1.PNG');
 for(let i= 1; i< 20;i++){
 img[i] = new Image();
 img[i] =  document.getElementById("images"+i);
-img[i].src = 'images/surf'+i+'.jpg';
+img[i].src = 'images/surf'+i+'.JPG';
 }
-imageElement = loadImage('images/surf'+index+'.jpg');
+imageElement = loadImage('images/surf'+index+'.JPG');
 
 }
 
