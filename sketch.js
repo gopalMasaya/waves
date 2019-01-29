@@ -201,7 +201,7 @@ detected = 0;
 
 //img =  document.getElementById("images");
 //img.src = 'images/surf'+index+'.jpg';
-imageElement = loadImage('images/surf'+index+'.jpg');
+imageElement = loadImage('images/surf'+index+'.JPG');
 //setTimeout(3000);
 posenet.load().then(function(net){
   return net.estimateMultiplePoses(img[index], imageScaleFactor, flipHorizontal, outputStride,maxPoseDetections)
