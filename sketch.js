@@ -48,7 +48,7 @@ for(let i= 0;i< poseX1.length;i++){
 }
 
 function preload(){
-  b_img = loadImage('assets/button1.PNG');
+  b_img = loadImage('assets/button1.png');
 for(let i= 1; i< 20;i++){
 img[i] = new Image();
 img[i] =  document.getElementById("images"+i);
