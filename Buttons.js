@@ -18,7 +18,7 @@ class Button {
     fill(255);
     rect(this.x-1,this.y-1,this.w+1,this.h+1);
 
-     image(b_img,this.x,this.y,this.w,this.h);
+     image(this.bg,this.x,this.y,this.w,this.h);
   //  rect(this.x,this.y,this.w,this.h,5);
     textSize(this.ts);
     textAlign(CENTER, CENTER);
