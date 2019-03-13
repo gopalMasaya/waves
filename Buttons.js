@@ -18,12 +18,12 @@ class Button {
     fill(255);
     rect(this.x-1,this.y-1,this.w+1,this.h+1);
 
-     image(this.bg,this.x,this.y,this.w,this.h);
+   //  image(this.bg,this.x,this.y,this.w,this.h);
   //  rect(this.x,this.y,this.w,this.h,5);
     textSize(this.ts);
     textAlign(CENTER, CENTER);
-    if(this.MouseIsOver()== true){noStroke();fill(240,180,20);}
-    else {noStroke();fill(255);}
+    if(this.MouseIsOver()== true){noStroke();fill(40,180,20);}
+    else {noStroke();fill(25);}
     text(this.label, this.x + (this.w / 2), this.y + (this.h / 2));
 
 
