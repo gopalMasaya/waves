@@ -16,7 +16,7 @@ class Button {
     stroke(190,120,20);} else{fill(0,38,61);strokeWeight(1);stroke(217,179,16);}
 
     fill(255);
-    rect(this.x-1,this.y-1,this.w+1,this.h+1);
+    rect(this.x-1,this.y-1,this.w+1,this.h+1,10,2);
 
    //  image(this.bg,this.x,this.y,this.w,this.h);
   //  rect(this.x,this.y,this.w,this.h,5);
